@@ -18,8 +18,9 @@
 <body>
 
     @include('partials.header')
+    @include('jambotron')
 
-    <main class="bg-light">
+    <main id="app_main" class="bg-light">
         @yield('content')
     </main>
 

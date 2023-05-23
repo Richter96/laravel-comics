@@ -4,8 +4,8 @@
             <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="">
         </div>
         <nav class="nav justify-content-center">
-            <a class="nav-link {{Route::currentRouteName()=== 'home' ? 'active' : ''}} " href="{{route('home')}}" aria-current="page">CHARACTERS</a>
-            <a class="nav-link {{Route::currentRouteName()=== 'comix' ? 'active' : ''}}" href="{{route('comix')}}" aria-current="page">COMICS</a>
+            <a class="nav-link {{Route::currentRouteName()=== 'characters' ? 'active' : ''}}" href="{{route('characters')}}" aria-current="page">CHARACTERS</a>
+            <a class="nav-link {{Route::currentRouteName()=== 'comix' ? 'active' : ''}} " href="{{route('comix')}}" aria-current="page">COMICS</a>
             <a class="nav-link {{Route::currentRouteName()=== '#' ? 'active' : ''}}" href="#" aria-current="page">MOVIES</a>
             <a class="nav-link {{Route::currentRouteName()=== '#' ? 'active' : ''}}" href="#" aria-current="page">TV</a>
             <a class="nav-link {{Route::currentRouteName()=== '#' ? 'active' : ''}}" href="#" aria-current="page">GAMES</a>

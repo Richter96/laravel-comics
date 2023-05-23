@@ -4,7 +4,7 @@
 
 <div class="container">
     <h1>
-        Welcome Comix Laravel
+        characters
     </h1>
 </div>
 

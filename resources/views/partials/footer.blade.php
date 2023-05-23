@@ -53,63 +53,13 @@
             </div>
             <div class="social col d-flex align-items-center justify-content-end">
                 <span class="fw-bold">FOLLOW AS</span>
-                <img class="ps-3" src="../assets/img/footer-facebook.png" alt="">
-                <img class="ps-3" src="../assets/img/footer-twitter.png" alt="">
-                <img class="ps-3" src="../assets/img/footer-youtube.png" alt="">
-                <img class="ps-3" src="../assets/img/footer-pinterest.png" alt="">
-                <img class="ps-3" src="../assets/img/footer-periscope.png" alt="">
+                <img class="ps-3" src="Vite::asset('resources/img/footer-facebook')}}
+                " alt="">
+                <img class="ps-3" src="{{ Vite::asset('resources/img/footer-twitter.png')}}" alt="">
+                <img class="ps-3" src="{{ Vite::asset('resources/img/footer-youtube.png')}}" alt="">
+                <img class="ps-3" src="{{ Vite::asset('resources/img/footer-pinterest.png')}}" alt="">
+                <img class="ps-3" src="{{ Vite::asset('resources/img/footer-periscope.png')}}" alt="">
             </div>
         </div>
     </section>
 </footer>
-
-<style lang="scss" scoped>
-    footer {
-
-        .top_footer {
-            background-image: url(../assets/img/footer-bg.jpg);
-
-            ul {
-                list-style: none;
-                padding: 0;
-            }
-
-            h5 {
-                margin: 1rem 0;
-                color: #ffffff;
-            }
-
-            li {
-                line-height: 1rem;
-            }
-
-            a {
-                font-size: 0.7rem;
-                text-decoration: none;
-                color: gray;
-            }
-        }
-
-        .bottom_footer {
-            padding: 1rem 0;
-            background-color: $footerBottom;
-
-            .btn_singup {
-                border: 1px solid $primary;
-                color: white;
-                padding: 0.5rem 1rem;
-            }
-
-            .circle {
-                width: 2.5rem;
-                aspect-ratio: 1/1;
-                margin-left: 0.5rem;
-                color: $primary;
-            }
-
-            span {
-                color: $primary;
-            }
-        }
-    }
-</style>
